@@ -1,10 +1,12 @@
+Suggested edits here
+
 % MATCH UPS
 
 clear variables;
 
 addpath(genpath('YOUR DIRECTORY TO SCRIPT HERE'))
 
-dx = 0.003; % lon res @ 30.5°N
+dx = 0.003; % lon res @ 30.5Â°N
 dy = 0.0027; % lat res
 lon1 = 125; lon2 = 135; lat1 = 25; lat2 = 30.5; % define ROI
 lonspace = [lon1 : dx : lon2]; % define lon axis spacing/grid
